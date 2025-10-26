@@ -17,7 +17,7 @@ buttons.forEach((btn) => {
   btn.addEventListener("click", function () {
     const userChosenColor = this.id;
     userPattern.push(userChosenColor);
-    // playSound(userChosenColor)
+    // playSound(userChosenColor);
     animatePress(userChosenColor);
     checkAnswer(userPattern.length - 1);
   });
